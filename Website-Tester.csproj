@@ -7,6 +7,10 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <Company>Darren Banfi</Company>
+    <Description>A Simple website tester - the checked http entry points</Description>
+    <Copyright>2024 - Darren Banfi</Copyright>
+    <PackageReadmeFile>ReadMe.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,6 +19,13 @@
 
   <ItemGroup>
     <Folder Include="assets\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ReadMe.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
